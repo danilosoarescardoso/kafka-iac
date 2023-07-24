@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kafka-exemplo
+spec:
+  type: kafka-instance
+  owner: arquitetura
+  lifecycle: producao
+
