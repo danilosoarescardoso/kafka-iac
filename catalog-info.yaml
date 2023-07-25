@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: kafka-exemplo
+  annotations:
+    kafka.apache.org/consumer-groups: CLUSTER_0/python_kafka101_group_1
 spec:
   type: service
   owner: arquitetura
